@@ -1,10 +1,10 @@
-package br.com.alura.microservice.loja;
+package br.com.alura.microservice.eureka;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class LojaApplicationTests {
+class EurekaServerApplicationTests {
 
 	@Test
 	void contextLoads() {

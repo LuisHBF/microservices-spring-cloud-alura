@@ -3,6 +3,8 @@ server:
 
 
 spring:
+  application:
+    name: fornecedor
   datasource: 
     username: root
     password: 
@@ -14,3 +16,12 @@ spring:
     database-platform: org.hibernate.dialect.MariaDB10Dialect
 
   
+
+
+    
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: 'http://localhost:8761/eureka'
