@@ -1,15 +1,5 @@
 server:
   port: 8081
-
-
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: update
-    database-platform: org.hibernate.dialect.MariaDB10Dialect
-
-
-
     
 eureka:
   client:
